@@ -15,7 +15,7 @@ No outputs. Just completes with zero code.
 ## Example usage
 
 ```yml
-- name: Send notification to Telegram
+name: Send notification to Telegram
 uses: grab-grab/notify-action
 with:
   url: https://example.com/test
