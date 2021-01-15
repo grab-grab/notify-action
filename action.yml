@@ -1,0 +1,11 @@
+name: Deployed
+description: Sends HTTP post request with inforation about workflow
+inputs:
+  url:
+    description: An URL which should be triggered
+    required: true
+runs:
+  using: docker
+  image: Dockerfile
+  args:
+    - ${{ inputs.url }}
